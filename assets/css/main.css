@@ -3915,13 +3915,23 @@ input, select, textarea {
 			}
 
 			#main > .posts2 > * {
+				-moz-flex-shrink: 1;
+				-webkit-flex-shrink: 1;
+				-ms-flex-shrink: 1;
+				flex-shrink: 1;
+				-moz-flex-grow: 0;
+				-webkit-flex-grow: 0;
+				-ms-flex-grow: 0;
+				flex-grow: 0;
+			}
+
+			#main > .posts2 > * {
 				width: 50%;
 			}
 
 			#main> .posts2 >*{
 				padding: 1rem;
-				width: 50%;
-				
+				width: 50%;			
 			}
 
 
