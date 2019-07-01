@@ -4025,6 +4025,174 @@ input, select, textarea {
 
 		}
 
+		#main > .posts > article {
+				border-color: #eeeeee;
+				border-left-width: 2px;
+		
+				border-top-width: 2px;
+				text-align: center;
+			}
+
+				#main > .posts > article > :last-child {
+					margin-bottom: 0;
+				}
+
+				#main > .posts > article:nth-child(2n - 1) {
+					border-left-width: 0;
+				}
+
+				#main > .posts > article:nth-child(-n + 2) {
+					border-top-width: 0;
+				}
+
+			@media screen and (max-width: 980px) {
+
+				#main > .posts > * {
+					width: 50%;
+				}
+
+				#main > .posts > * {
+					padding: 2.5rem;
+					width: 50%;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				#main > .posts > * {
+					width: 100%;
+				}
+
+				#main > .posts > * {
+					padding: 2rem;
+					width: 100%;
+				}
+
+				#main > .posts > article:nth-child(2n - 1) {
+					border-left-width: 2px;
+				}
+
+				#main > .posts > article:nth-child(-n + 2) {
+					border-top-width: 2px;
+				}
+
+				#main > .posts > article:nth-child(n) {
+					border-left-width: 0;
+				}
+
+				#main > .posts > article:nth-child(-n + 1) {
+					border-top-width: 0;
+				}
+
+				#main > .posts > article .image {
+					max-width: 25rem;
+					margin-left: auto;
+					margin-right: auto;
+				}
+
+			}
+
+		@media screen and (max-width: 736px) {
+
+			#main > * {
+				padding: 2rem 2rem 0.1rem 2rem ;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#main {
+				width: 100%;
+			}
+
+		}
+
+		#main > .posts2 > article {
+			border-color: #eeeeee;
+			border-left-width: 2px;
+	
+			border-top-width: 2px;
+			text-align: center;
+		}
+
+			#main > .posts2 > article > :last-child {
+				margin-bottom: 0;
+			}
+
+			#main > .posts2 > article:nth-child(2n - 1) {
+				border-left-width: 0;
+			}
+
+			#main > .posts2 > article:nth-child(-n + 2) {
+				border-top-width: 0;
+			}
+
+		@media screen and (max-width: 980px) {
+
+			#main > .posts2 > * {
+				width: 50%;
+			}
+
+			#main > .posts2 > * {
+				padding: 2.5rem;
+				width: 50%;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#main > .posts2 > * {
+				width: 100%;
+			}
+
+			#main > .posts2 > * {
+				padding: 2rem;
+				width: 100%;
+			}
+
+			#main > .posts2 > article:nth-child(2n - 1) {
+				border-left-width: 2px;
+			}
+
+			#main > .posts2 > article:nth-child(-n + 2) {
+				border-top-width: 2px;
+			}
+
+			#main > .posts2 > article:nth-child(n) {
+				border-left-width: 0;
+			}
+
+			#main > .posts2 > article:nth-child(-n + 1) {
+				border-top-width: 0;
+			}
+
+			#main > .posts2 > article .image {
+				max-width: 25rem;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+		}
+
+	@media screen and (max-width: 736px) {
+
+		#main > * {
+			padding: 2rem 2rem 0.1rem 2rem ;
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		#main {
+			width: 100%;
+		}
+
+	}
+
 /* Footer */
 
 	#footer {
